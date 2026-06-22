@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — EcoNanoMed Sustainable Medical Packaging</title>
+  <meta name="description" content="Get in touch with EcoNanoMed to discuss partnerships and sustainable medical packaging solutions." />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="EcoNanoMed home">
+        <img src="../logo.png" alt="EcoNanoMed" />
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="innovation.html">Innovation</a>
+        <a href="solution.html">Solution</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PAGE HEADER ============ -->
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact</span>
+        </nav>
+        <h1>Get in Touch</h1>
+        <p>Interested in partnering with us or learning more about our sustainable packaging solutions?</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT FORM ============ -->
+    <section class="section section--light">
+      <div class="container">
+        <div style="max-width: 640px; margin: 0 auto;">
+          <div class="reveal">
+            <h2 class="h2" style="margin-bottom: 2rem;">Send us a Message</h2>
+            <form class="form" id="contactForm" novalidate>
+              <div class="form__row">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your full name" required />
+                <span class="error-msg"></span>
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="your.email@company.com" required />
+                <span class="error-msg"></span>
+              </label>
+            </div>
+            <label>
+                Message
+                <textarea name="message" rows="6" placeholder="Tell us about your interest or inquiry..." required></textarea>
+                <span class="error-msg"></span>
+              </label>
+              <button type="submit" class="btn btn--secondary" id="formBtn">Send Message</button>
+            </form>
+            <p class="contact__meta">EcoNanoMed Packaging Ltd · Founded by Suren Ghale &amp; Anil Ghale</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INFO SECTION ============ -->
+    <section class="section section--white">
+      <div class="container reveal">
+        <p class="eyebrow">About Partnerships</p>
+        <h2 class="h2">Why Contact EcoNanoMed?</h2>
+        <div class="grid grid--3 mt-xl">
+          <article class="card">
+            <h3>Product Development Inquiries</h3>
+            <p>Learn how our nanocellulose-based packaging can integrate with your medical device or healthcare supply solutions.</p>
+          </article>
+          <article class="card">
+            <h3>NHS Engagement</h3>
+            <p>NHS Trusts and procurement teams — discuss sustainable packaging strategy and Net Zero alignment.</p>
+          </article>
+          <article class="card">
+            <h3>Research & Collaboration</h3>
+            <p>Academic researchers, materials scientists, and clinical stakeholders — explore partnership opportunities.</p>
+          </article>
+          <article class="card">
+            <h3>Commercial Partnerships</h3>
+            <p>Medical device manufacturers and healthcare distributors — discuss supply chain integration.</p>
+          </article>
+          <article class="card">
+            <h3>Investor Relations</h3>
+            <p>Learn about EcoNanoMed's market opportunity and technology commercialization timeline.</p>
+          </article>
+          <article class="card">
+            <h3>Media & Speaking</h3>
+            <p>Healthcare sustainability journalists and conference organizers — request expert commentary.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <img src="../logofoot.png" alt="EcoNanoMed footer logo" />
+        <div>
+          <p class="footer__brand-title">EcoNanoMed Packaging Ltd</p>
+          <p class="footer__tagline">Sustainable medical packaging for healthcare.</p>
+        </div>
+      </div>
+      <div class="footer__nav" aria-label="Footer navigation">
+        <h3>Explore</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="innovation.html">Innovation</a>
+        <a href="solution.html">Solution</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__contact">
+        <h3>Contact</h3>
+        <p>info@econanomed.co.uk</p>
+        <p>+44 20 1234 5678</p>
+        <p>London, UK</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">© 2026 EcoNanoMed Packaging Ltd. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
